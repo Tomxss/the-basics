@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-server',
@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServerComponent implements OnInit {
   serverStatus: String = "offline";
-  serverId = 5;
+  serverId = 404;
 
   constructor() { }
 
