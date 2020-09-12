@@ -1,3 +1,8 @@
+<label>Server Name</label>
+<input 
+type="text"
+(input)="updateServerName($event)">
+<p>{{ serverName }}</p>
 <button 
 class="btn btn-primary"
 [disabled]="!allowNewServer"
